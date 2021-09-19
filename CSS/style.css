@@ -1,0 +1,64 @@
+#bottom{
+    position: fixed;
+    background: #ccc;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#top
+{
+    position: fixed;
+    background: rgb(48, 46, 46);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 0px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+body
+{
+    width: 90%;
+    height: auto;
+    padding: 0;
+    margin: 0px auto;
+    font-family: Calibri, Georgia, Ubuntu-C;  
+    font-size: 16px;
+    margin-top: 100px;
+    margin-bottom: 150PX;
+}
+
+#output
+{
+    word-wrap: break-word;
+}
+
+.input-text
+{
+    color:tomato; 
+    text-align:right;
+    background-color: rgba(153, 243, 8, 0.01);
+}
+
+.output-text
+{
+    color:blue;
+    text-align:left;
+    background-color: rgba(250, 8, 109, 0.01);
+}
+
+.connection-stats
+{
+    color:grey;
+    text-align:center;
+}
+
+.nav-link
+{
+    font-weight: bolder;
+}
