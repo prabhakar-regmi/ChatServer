@@ -3,7 +3,7 @@ const socket = require('socket.io');
 
 // Server Setup
 const port_number = process.env.PORT || 1000;
-const server = require('./SetUpApp.js').SetupServer(express, port_number);
+const server = require('./SetUpServer.js').SetupServer(express, port_number);
 
 // Socket.io object
 let io = socket(server);

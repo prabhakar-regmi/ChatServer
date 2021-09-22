@@ -1,0 +1,31 @@
+{
+  "name": "charserver",
+  "version": "1.0.0",
+  "description": "A simple utility for one-to-many communication using NodeJS, HTML and JS",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabhakar-regmi/ChatServer.git"
+  },
+  "keywords": [
+    "Chat",
+    "Server",
+    "Prabhakar",
+    "Regmi",
+    "NodeJS"
+  ],
+  "author": "Prabhakar Regmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabhakar-regmi/ChatServer/issues"
+  },
+  "homepage": "https://github.com/prabhakar-regmi/ChatServer#readme"
+}
